@@ -76,7 +76,16 @@ annotate projection.ProductsSet with @(
     UI.HeaderInfo                : {
         $Type         : 'UI.HeaderInfoType',
         TypeName      : 'Product',
-        TypeNamePlural: 'Products'
+        TypeNamePlural: 'Products',
+        Title         : {
+            $Type: 'UI.DataField',
+            Value: productName,
+        },
+        Description: {
+            $Type : 'UI.DataField',
+            Value : product,
+        }
+        
     },
     UI.SelectionFields           : [
         supplier_ID,
