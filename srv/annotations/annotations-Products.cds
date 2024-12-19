@@ -15,18 +15,37 @@ annotate projection.ProductsSet with {
 
 // Para que en lugar de ID, tome las descripciones
 annotate projection.ProductsSet with {
-    subCategory @Common: {Text: subCategory.subcategory};
+    subCategory @Common: {
+        Text           : subCategory.subcategory,
+        TextArrangement: #TextOnly,
+        ValueList      : {
+            $Type         : 'Common.ValueListType',
+            CollectionPath: 'VH_SubCategories',
+            Parameters    : [
+                {
+                    $Type            : 'Common.ValueListParameterIn',
+                    LocalDataProperty: category_ID,
+                    ValueListProperty: 'category_ID'
+                },
+                {
+                    $Type            : 'Common.ValueListParameterOut',
+                    LocalDataProperty: subCategory_ID,
+                    ValueListProperty: 'ID'
+                }
+            ]
+        },
+    };
     category    @Common: {
         Text           : category.category,
         // Solo ver el Text. Sino muestra el Texto + ID
         TextArrangement: #TextOnly,
-        ValueList : {
-            $Type : 'Common.ValueListType',
-            CollectionPath : 'VH_Categories',
-            Parameters : [{
-                $Type: 'Common.ValueListParameterInOut',
+        ValueList      : {
+            $Type         : 'Common.ValueListType',
+            CollectionPath: 'VH_Categories',
+            Parameters    : [{
+                $Type            : 'Common.ValueListParameterInOut',
                 LocalDataProperty: category_ID,
-                ValueListProperty: 'category'
+                ValueListProperty: 'ID'
             }
 
             ]
