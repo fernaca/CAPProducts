@@ -1,0 +1,6 @@
+product,productName,description,category_ID,subCategory_ID,supplier_ID,rating,min,max,value,criticality,stock_code,price,currency
+PRD001,Laptop Pro X,High-performance laptop with latest specs,CAT001,SCAT001,SUP001,4.5,30,100,75,1,InStock,1299.99,USD
+PRD002,Smart Watch Elite,Advanced fitness tracking smartwatch,CAT002,SCAT003,SUP002,4.2,30,100,45,2,LowAvailability,299.99,USD
+PRD003,Gaming Mouse Pro,RGB gaming mouse with programmable buttons,CAT003,SCAT005,SUP003,4.8,30,100,90,1,InStock,89.99,USD
+PRD004,Wireless Earbuds,Premium wireless earbuds with noise cancellation,CAT002,SCAT004,SUP001,4.3,30,100,60,2,NotInStock,199.99,USD
+PRD005,4K Monitor,32-inch 4K professional monitor,CAT001,SCAT002,SUP002,4.6,30,100,80,1,InStock,599.99,USD

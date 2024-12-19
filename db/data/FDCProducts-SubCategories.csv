@@ -1,0 +1,6 @@
+ID,subcategory,description,category_ID
+SCAT001,Laptops,Portable computers and notebooks,CAT001
+SCAT002,Monitors,Computer displays and screens,CAT001
+SCAT003,Wearables,Smart wearable devices,CAT002
+SCAT004,Audio,Audio devices and accessories,CAT002
+SCAT005,Gaming Peripherals,Gaming mice keyboards and controllers,CAT003

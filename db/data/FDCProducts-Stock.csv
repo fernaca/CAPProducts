@@ -1,0 +1,5 @@
+code,name,descr
+InStock,In Stock,Product is available for immediate purchase
+NotInStock,Not In Stock,Product is currently unavailable
+LowAvailability,Low Availability,Limited quantity available
+Pending,Pending,Stock status pending verification
