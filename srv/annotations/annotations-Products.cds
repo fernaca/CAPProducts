@@ -55,7 +55,7 @@ annotate projection.ProductsSet with {
         Text           : supplier.supplierName,
         TextArrangement: #TextOnly,
         ValueList      : {
-            $Type         : 'Common.ValueListType',
+            $Type         : 'Common.ValueListType' ,
             CollectionPath: 'VH_Suppliers',
             Parameters    : [{
                 $Type            : 'Common.ValueListParameterInOut',
