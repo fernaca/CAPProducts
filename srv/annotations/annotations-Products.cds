@@ -60,7 +60,7 @@ annotate projection.ProductsSet with {
             Parameters    : [{
                 $Type            : 'Common.ValueListParameterInOut',
                 LocalDataProperty: supplier_ID,
-                ValueListProperty: 'ID'
+                ValueListProperty: 'ID' 
             }]
         },
     };

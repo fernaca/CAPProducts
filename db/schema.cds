@@ -21,7 +21,7 @@ entity Products : cuid {
         max         : Integer default 100;
         value       : Integer default 0;
         criticality : Integer;
-//        criticality : Association to Criticality;
+        //        criticality : Association to Criticality;
         stock       : Association to Stock default 'Pending';
         price       : Decimal(8, 2) @assert.range: [
             0,
@@ -66,10 +66,10 @@ entity Stock : CodeList {
 
 entity Criticality : CodeList {
     key code : Integer enum {
-            Neutral = 0  @title: 'Neutral';
-            Negative = 1 @title: 'Negative';
-            Critical = 2 @title: 'Critical';
-            Positive = 3 @title: 'Positive';
-            NewItem = 5  @title: 'New Item'
+            Neutral = 0          @title: 'Neutral';
+                    Negative = 1 @title: 'Negative';
+                    Critical = 2 @title: 'Critical';
+                    Positive = 3 @title: 'Positive';
+                    NewItem = 5 @title: 'New Item'
         }
 };
