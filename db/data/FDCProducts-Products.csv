@@ -1,6 +1,11 @@
-product,productName,description,category_ID,subCategory_ID,supplier_ID,rating,min,max,value,criticality,stock_code,price,currency
-PRD001,Laptop Pro X,High-performance laptop with latest specs,CAT001,SCAT001,SUP001,4.5,30,100,75,1,InStock,1299.99,USD
-PRD002,Smart Watch Elite,Advanced fitness tracking smartwatch,CAT002,SCAT003,SUP002,4.2,30,100,45,2,LowAvailability,299.99,USD
-PRD003,Gaming Mouse Pro,RGB gaming mouse with programmable buttons,CAT003,SCAT005,SUP003,4.8,30,100,90,1,InStock,89.99,USD
-PRD004,Wireless Earbuds,Premium wireless earbuds with noise cancellation,CAT002,SCAT004,SUP001,4.3,30,100,60,2,NotInStock,199.99,USD
-PRD005,4K Monitor,32-inch 4K professional monitor,CAT001,SCAT002,SUP002,4.6,30,100,80,1,InStock,599.99,USD
+ID,product,productName,description,category_ID,subCategory_ID,supplier_ID,rating,min,max,value,criticality,stock_code,price,currency
+301,PROD001,iPhone 13,Latest iPhone model,1,101,201,4.5,30,100,75,3,InStock,999.99,USD
+302,PROD002,MacBook Pro,Professional laptop,1,102,201,4.8,30,100,80,3,InStock,1499.99,USD
+303,PROD003,Coffee Maker,Automatic coffee machine,2,103,202,4.2,30,100,45,0,LowAvailability,89.99,USD
+304,PROD004,Office Desk,Wooden office desk,2,104,202,4.0,30,100,60,1,NotInStock,299.99,USD
+305,PROD005,Yoga Mat,Premium yoga mat,3,105,203,4.6,30,100,90,3,InStock,29.99,USD
+306,PROD006,Basketball,Professional basketball,3,106,203,4.3,30,100,70,0,InStock,24.99,USD
+307,PROD007,Harry Potter,Complete book series,4,107,204,4.9,30,100,95,3,InStock,99.99,USD
+308,PROD008,Cookbook,Gourmet recipes,4,108,204,4.1,30,100,40,2,LowAvailability,34.99,USD
+309,PROD009,T-Shirt,Cotton t-shirt,5,109,205,4.4,30,100,85,3,InStock,19.99,USD
+310,PROD010,Dress,Summer dress,5,110,205,4.7,30,100,65,5,Pending,49.99,USD

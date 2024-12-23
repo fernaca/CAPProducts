@@ -52,7 +52,7 @@ annotate projection.ProductsSet with {
         },
     };
     supplier    @Common: {
-        Text           : supplier.suplierName,
+        Text           : supplier.supplierName,
         TextArrangement: #TextOnly,
         ValueList      : {
             $Type         : 'Common.ValueListType',

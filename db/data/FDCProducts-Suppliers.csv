@@ -1,4 +1,6 @@
-ID,supplier,suplierName,webAddress
-SUP001,TECH01,TechWorld Inc,www.techworld.com
-SUP002,ELEC02,Electronics Plus,www.electronicsplus.com
-SUP003,GAME03,Gaming Gear Co,www.gaminggear.co
+ID,supplier,supplierName,webAddress
+201,TECH001,TechWorld,www.techworld.com
+202,HOME002,HomeStyle,www.homestyle.com
+203,SPORT003,SportMaster,www.sportmaster.com
+204,BOOK004,BookHouse,www.bookhouse.com
+205,FASH005,FashionHub,www.fashionhub.com

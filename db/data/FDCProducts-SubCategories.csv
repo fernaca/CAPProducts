@@ -1,6 +1,11 @@
 ID,subcategory,description,category_ID
-SCAT001,Laptops,Portable computers and notebooks,CAT001
-SCAT002,Monitors,Computer displays and screens,CAT001
-SCAT003,Wearables,Smart wearable devices,CAT002
-SCAT004,Audio,Audio devices and accessories,CAT002
-SCAT005,Gaming Peripherals,Gaming mice keyboards and controllers,CAT003
+101,Smartphones,Mobile phones and accessories,1
+102,Laptops,Portable computers,1
+103,Kitchen Appliances,Equipment for cooking and food preparation,2
+104,Furniture,Home and office furniture,2
+105,Fitness Equipment,Exercise and fitness gear,3
+106,Team Sports,Equipment for team sports,3
+107,Fiction,Novels and story books,4
+108,Non-Fiction,Educational and reference books,4
+109,Men's Wear,Clothing for men,5
+110,Women's Wear,Clothing for women,5
